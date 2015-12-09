@@ -28,8 +28,11 @@
 		181ED9F11B959B84006AA8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181ED9F31B959B84006AA8CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		181ED9F61B959B84006AA8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		181EDA011B959B84006AA8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181EDA021B959B84006AA8CE /* ClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockTests.m; sourceTree = "<group>"; };
+=======
+>>>>>>> 57ba5442f0946a7755d25395324f18600e802209
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				181ED9E21B959B84006AA8CE /* Clock */,
-				181ED9FF1B959B84006AA8CE /* ClockTests */,
 				181ED9E11B959B84006AA8CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,23 +83,6 @@
 			children = (
 				181ED9E41B959B84006AA8CE /* Info.plist */,
 				181ED9E51B959B84006AA8CE /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		181ED9FF1B959B84006AA8CE /* ClockTests */ = {
-			isa = PBXGroup;
-			children = (
-				181EDA021B959B84006AA8CE /* ClockTests.m */,
-				181EDA001B959B84006AA8CE /* Supporting Files */,
-			);
-			path = ClockTests;
-			sourceTree = "<group>";
-		};
-		181EDA001B959B84006AA8CE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				181EDA011B959B84006AA8CE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
