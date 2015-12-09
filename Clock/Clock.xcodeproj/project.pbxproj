@@ -14,18 +14,7 @@
 		181ED9F21B959B84006AA8CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181ED9F01B959B84006AA8CE /* Main.storyboard */; };
 		181ED9F41B959B84006AA8CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181ED9F31B959B84006AA8CE /* Images.xcassets */; };
 		181ED9F71B959B84006AA8CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181ED9F51B959B84006AA8CE /* LaunchScreen.xib */; };
-		181EDA031B959B84006AA8CE /* ClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EDA021B959B84006AA8CE /* ClockTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		181ED9FD1B959B84006AA8CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 181ED9D81B959B84006AA8CE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 181ED9DF1B959B84006AA8CE;
-			remoteInfo = Clock;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		181ED9E01B959B84006AA8CE /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,20 +28,12 @@
 		181ED9F11B959B84006AA8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181ED9F31B959B84006AA8CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		181ED9F61B959B84006AA8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		181ED9FC1B959B84006AA8CE /* ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181EDA011B959B84006AA8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181EDA021B959B84006AA8CE /* ClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		181ED9DD1B959B84006AA8CE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		181ED9F91B959B84006AA8CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				181ED9E01B959B84006AA8CE /* Clock.app */,
-				181ED9FC1B959B84006AA8CE /* ClockTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,24 +122,6 @@
 			productReference = 181ED9E01B959B84006AA8CE /* Clock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		181ED9FB1B959B84006AA8CE /* ClockTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 181EDA091B959B84006AA8CE /* Build configuration list for PBXNativeTarget "ClockTests" */;
-			buildPhases = (
-				181ED9F81B959B84006AA8CE /* Sources */,
-				181ED9F91B959B84006AA8CE /* Frameworks */,
-				181ED9FA1B959B84006AA8CE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				181ED9FE1B959B84006AA8CE /* PBXTargetDependency */,
-			);
-			name = ClockTests;
-			productName = ClockTests;
-			productReference = 181ED9FC1B959B84006AA8CE /* ClockTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -171,10 +133,6 @@
 				TargetAttributes = {
 					181ED9DF1B959B84006AA8CE = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					181ED9FB1B959B84006AA8CE = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 181ED9DF1B959B84006AA8CE;
 					};
 				};
 			};
@@ -192,7 +150,6 @@
 			projectRoot = "";
 			targets = (
 				181ED9DF1B959B84006AA8CE /* Clock */,
-				181ED9FB1B959B84006AA8CE /* ClockTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +162,6 @@
 				181ED9F21B959B84006AA8CE /* Main.storyboard in Resources */,
 				181ED9F71B959B84006AA8CE /* LaunchScreen.xib in Resources */,
 				181ED9F41B959B84006AA8CE /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		181ED9FA1B959B84006AA8CE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,23 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		181ED9F81B959B84006AA8CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				181EDA031B959B84006AA8CE /* ClockTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		181ED9FE1B959B84006AA8CE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 181ED9DF1B959B84006AA8CE /* Clock */;
-			targetProxy = 181ED9FD1B959B84006AA8CE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		181ED9F01B959B84006AA8CE /* Main.storyboard */ = {
@@ -367,40 +301,6 @@
 			};
 			name = Release;
 		};
-		181EDA0A1B959B84006AA8CE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ClockTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clock.app/Clock";
-			};
-			name = Debug;
-		};
-		181EDA0B1B959B84006AA8CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ClockTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clock.app/Clock";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,14 +320,7 @@
 				181EDA081B959B84006AA8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		181EDA091B959B84006AA8CE /* Build configuration list for PBXNativeTarget "ClockTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				181EDA0A1B959B84006AA8CE /* Debug */,
-				181EDA0B1B959B84006AA8CE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
